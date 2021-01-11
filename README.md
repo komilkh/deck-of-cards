@@ -1,19 +1,25 @@
-# deck-of-cards
-
+Prerequisites
 You must have JDK 8, MAVEN installed in your device.
 
-Run "mvn verify" in your project level folder.
 
+Overview.
+We have http://deckofcardsapi.com/ API that has features of creating decks of cards and multiple cards can be drawn from the decks.
+We are testing creating and drawing cards from decks features of the application.
+
+
+Running Tests.
+Run "mvn verify" in your project level folder.
 You may specify what tests to run by placing a @runThis in any of scenarios or features of feature files that are locaed under src/test/resources/com/deckofcardapi/features. 
 By default all the tests will run.
 
+
+Test Result Reports.
 You can find html reports under target/pretty-html-report/cucumber-html-reports after running tests through mvn
 
 
 
-
+Test Cases.
 Here is the Cucumber feature file contents to quckly glance at test cases:
-
 ______________________________________________________________________________________________________________
 Feature: Create Deck Test Cases
 
