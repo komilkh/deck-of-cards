@@ -29,17 +29,17 @@ Feature: Create Deck Test Cases
 		And Deck of Cards shuffle status must be "<isShuffled>"
 		
 		Examples:
-		| deck_count 	| isShuffled 	|
-		| 1						| true				|
-		| 6						| true				|
-		| 20					| true				|
-		| -3					| true				|
-		| 0						| true				|		
-		| 2						| false				|
-		| 10					| false				|
-		| 20					| false				|
-		| -10					| false				|
-		| 0						| false				|
+		| deck_count 			| isShuffled 	|
+		| 1				| true		|
+		| 6				| true		|
+		| 20				| true		|
+		| -3				| true		|
+		| 0				| true		|		
+		| 2				| false		|
+		| 10				| false		|
+		| 20				| false		|
+		| -10				| false		|
+		| 0				| false		|
 	
 	
 	Scenario Outline: Create Deck Negative
@@ -47,8 +47,8 @@ Feature: Create Deck Test Cases
 		
 		Examples:		
 		| deck_count 	| isShuffled 	|
-		| 25					| true				|
-		| 30					| false				|
+		| 25		| true		|
+		| 30		| false		|
 		
 
 	Scenario: Create One Deck with Jokers
