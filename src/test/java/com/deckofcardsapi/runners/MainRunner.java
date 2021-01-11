@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		tags = "@temp",
+		tags = "@runThis",
 		
 		features = "src/test/resources/com/deckofcardsapi/features",
 		glue = "com/deckofcardsapi/stepDefs",

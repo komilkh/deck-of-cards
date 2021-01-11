@@ -1,4 +1,4 @@
-#@temp
+@runThis
 Feature: Draw Cards
 
 	Scenario: Number of drawn cards are correct

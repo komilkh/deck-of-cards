@@ -1,4 +1,4 @@
-#@temp
+@runThis
 Feature: Create Deck Test Cases
 
 
@@ -30,7 +30,7 @@ Feature: Create Deck Test Cases
 		| 25					| true				|
 		| 30					| false				|
 		
-	@temp
+
 	Scenario: Create One Deck with Jokers
 		Given User creates one unshuffled deck with jokers
 		Then Number of cards is 54
